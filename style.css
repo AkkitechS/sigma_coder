@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #010b1b;
+}
+
+/* ................... Common Start ....................... */
+.heading1, .heading2 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 2.5rem;
+}
+
+.heading2 {
+  font-size: 3rem;
+}
+
+.avatar {
+  width: 22rem;
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  color: #ebe2e2;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text1,
+.text2,
+.text3,
+.text4, .text5 {
+  font-size: 1.8rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.text2 {
+  font-size: 1.6rem;
+}
+
+.text3 {
+  font-size: 1.4rem;
+}
+
+.text4 {
+  font-size: 1.2rem;
+}
+
+.text5 {
+  font-size: 1rem;
+}
+/* ................... Common End ....................... */
+
+/* ................... Header Start ....................... */
+
+.header-container {
+  background-color: #010b1b;
+  display: flex;
+  flex-direction: column;
+}
+
+.title h2 {
+  text-align: center;
+  color: #ebe2e2;
+  margin-top: 3rem;
+}
+
+.middle-section {
+  display: flex;
+  width: 90%;
+  margin-top: 3rem;
+}
+
+.info p {
+  color: #ebe2e2;
+  /* font-size: 1.8rem;
+  font-family: "Josefin Sans", sans-serif; */
+  border-left: 10px solid #fa5f08;
+  padding-left: 10px;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  width: 80%;
+}
+
+.info ul {
+  margin-left: 10rem;
+  margin-top: 7rem;
+}
+
+.info ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.info ul li a img {
+  width: 2rem;
+  padding: 5px;
+}
+
+.info ul li {
+  background-color: #fa5f08;
+  border-radius: 100px;
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+}
+
+.image img {
+  margin-top: -5rem;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .middle-section {
+    flex-wrap: wrap-reverse;
+    margin-top: 5rem;
+  }
+
+  .info p {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .middle-section {
+    flex-wrap: wrap-reverse;
+    margin-top: 5rem;
+  }
+
+  .info p {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  .middle-section {
+    flex-wrap: wrap-reverse;
+    margin-top: 5rem;
+  }
+
+  .info p {
+    margin-left: 3rem;
+  }
+}
+
+.info ul li:hover {
+  background-color: #f57c37;
+  transition: 0.2s ease all;
+  transform: scale(1.2);
+}
+
+.image img:hover {
+  transform: scale(1.1);
+  transition: 1s ease all;
+}
+
+/* ................... Header End ....................... */
+
+/* ................... Skills Start ....................... */
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-img img {
+  width: 500px;
+  margin-right: 15rem; 
+}
+
+.skills ul {
+  margin-top: 5rem;
+}
+
+.skills ul li {
+  color: #ebe2e2;
+  margin: 2rem;
+  text-align: start;
+}
+
+/* ................... Skills End ....................... */
+
+
+/* ................... Education Start ....................... */
+
+.education-container {
+  margin-top: 5rem;
+}
+
+.education-img img {
+  width: 400px;
+  border: 2px solid #fa5f08;
+  border-radius: 200px;
+  padding: 5px;
+}
+
+.education-inner-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 20rem;
+  margin-top: 4.5rem;
+}
+
+.education-list ul {
+  margin-top: 4rem;
+}
+
+.education-list ul li {
+  color: #ebe2e2;
+  margin: 2rem;
+  list-style-type: disc;
+}
+
+/* ................... Education End ....................... */
+
+/* ................... About Me Start ....................... */
+
+.about-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.about-para-container {
+  margin-top: 2rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #010b1b;
+  box-shadow: 0 3px 7px 0 rgba(252, 3, 3, 0.655), 0 4px 12px 0 rgba(243, 92, 92, 0.829);
+  border: 2px solid #fa5f08;
+  border-radius: 7px;
+  padding: 1rem;
+}
+
+.about-paragraph {
+  color: #ebe2e2;
+}
+
+.download-btn {
+  width: 20%;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px 0 rgba(250, 5, 5, 0.578), 0 6px 20px 0 rgba(252, 5, 5, 0.523);
+}
+
+.download-btn a {
+  width: 100%;
+  height: 2rem;
+  background-color: #fa5f08;
+  border: 2px solid #fa5f08;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 3px 2px;
+}
+
+.download-btn a:hover {
+  background-color: #f57c37;
+}
+
+/* ................... About Me End ....................... */
+
+
+/* ................... Enquiry Form Start ....................... */
+
+.enquiry-form-container {
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputs {
+  margin-top: 3rem;
+  border: 2px solid #fa5f08;
+  padding: 2rem;
+}
+
+.input-container {
+  margin: 1rem 0;
+}
+
+.input-container input, textarea {
+  width: 100%;
+  height: 2rem;
+  background-color: #152a4beb;
+  border-style: none;
+  color: #ebe2e2;
+  padding: 7px;
+}
+
+.input-container textarea {
+  height: 6rem;
+}
+
+#enquiry-btn-container {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#enquiry-btn-container button {
+  width: 100%;
+  height: 2rem;
+  background-color: #fa5f08;
+  border: 2px solid #fa5f08;
+  border-radius: 5px;
+}
+
+#enquiry-btn-container button:hover {
+  background-color: #f57c37;
+}
+
+.input-container input:focus {
+  outline: #f57c37;
+}
+
+.input-container textarea:focus {
+  outline: #f57c37;
+}
+
+/* ................... Enquiry Form End ....................... */
+
+
+/* ................... Video Start ....................... */
+
+.video-container {
+  margin: 5rem auto;
+  display: flex;
+  width: 80%;
+  column-gap: 15rem;
+}
+
+.video-description {
+  color: #ebe2e2;
+}
+
+.video-description h3 span {
+  color: #fa5f08;
+}
+
+
+/* ................... Video End ....................... */
+
+
+/* ................... Footer Start ....................... */
+
+.footer-container {
+  background-color: #152a4beb;
+  padding: 2rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-middle {
+  display: flex;
+  column-gap: 10rem;
+}
+
+.footer-mylogo p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.2rem;
+  color: #fa5f08;
+}
+
+.footer-mylogo ul li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-mylogo ul li a {
+  text-decoration: none;
+  color: #ebe2e2;
+}
+
+.footer-logo {
+  margin-right: 10px;
+}
+
+.flogo {
+  width: 18px;
+}
+
+.footer-right p {
+  margin-bottom: 1rem;
+  color: #ebe2e2;
+}
+
+.footer-bottom {
+  margin-top: 1rem;
+}
+
+.copyright {
+  color: #fa5f08;
+}
+
+.footer-download-btn a {
+  background-color: #fa5f08;
+  border: 2px solid #fa5f08;
+  border-radius: 5px;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+
+.footer-download-btn a:hover {
+  background-color: #f57c37;
+}
+
+/* ................... Footer End ....................... */
+
+/* Link Tag for gfonts */
+/* 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+*/
+
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'League Spartan', sans-serif;
+*/
+
+/* 
+Youtube logo credit
+<a target="_blank" href="https://icons8.com/icon/37326/youtube">YouTube</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+*/
+
+/* 
+Github icon credit
+<a target="_blank" href="https://icons8.com/icon/12599/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+*/
